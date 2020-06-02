@@ -18,7 +18,8 @@ mission = [
   ['2020-04-22T09:35:00Z', :sun_point], # no longer in view, charge again
   ['2020-04-22T10:47:00Z', :data_downlink], # AOS at Fairbanks, downlink
   ['2020-04-22T10:51:00Z', :sun_point], # LOS, charge again
-  
+
+# after sunset, can't image during this pass!
 #  ['2020-04-22T20:25:00Z', :imaging],   # image the spaceport
 #  ['2020-04-22T20:29:00Z', :sun_point], # no longer in view, charge again
 #  ['2020-04-22T22:22:00Z', :data_downlink], # AOS at Fairbanks, downlink
