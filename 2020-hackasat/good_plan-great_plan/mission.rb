@@ -31,7 +31,7 @@ mission = [
   ['2020-04-23T11:10:00Z', :data_downlink], # AOS at Fairbanks, downlink
   ['2020-04-23T11:13:00Z', :sun_point], # LOS, charge again
 
-  ['2020-04-23T20:30:00Z', :wheel_desaturate], # desat wheels using magnetorqer
+  ['2020-04-23T20:00:00Z', :wheel_desaturate], # desat wheels using magnetorqer
 ]
 
 def process_tlm(curtime, tlmstr)
